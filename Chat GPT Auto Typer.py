@@ -49,7 +49,7 @@ def mimic_typing(text, typing_speed=0.05):
         position += 1
         time.sleep(typing_speed)
 
-openai.api_key = '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'
+openai.api_key = ''
 messages = [
     {"role": "system", "content": "You are a kind helpful assistant."},
 ]
